@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spill</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <p><a href="index.html">Trykk her for å gå tilbake.</a></p>
+    <h1>Hvor mange ganger klarer du å trykke på knappen?!</h1>
+    <h2>Klarer du å slå rekorden til Oddi med sine 1300 poeng med sin lusne touchpad?</h2>
+    <p><strong>Spilleren mister liv hvert 5 sekund</strong></p>
+    <div class="spillStatistikker">
+        <p>Liv: <span id="livTeller">5</span></p>
+        <p>Poeng: <span id="poengTeller">0</span></p>
+    </div>
+    <div class="spill">
+        <button id="spillKnapp">Trykk her!</button>
+    </div>
+
+    <table id="lederbrett">
+        <thead>
+            <tr>
+                <th>Navn</th>
+                <th>Poeng</th>
+            </tr>
+        </thead>
+        <!--Poeng vil automatisk vises frem her med litt JS-magi.-->
+        <tbody>
+        </tbody>
+    </table>
+
+    <script src="hendelser.js"></script>
+</body>
+</html>

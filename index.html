@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hendelser Oppgave</title>
+    <link rel="stylesheet" href="style.css"> <!--Dersom eg skal style det, da. Hehe.-->
+</head>
+<body>
+    <h1>Hendelser, og et lite nettspill</h1>
+    <h2>Hva er en hendelse?</h2>
+    <p>En hendelse er små funksjoner som kjører når et program gjenkjenner et input fra brukeren. Et eksempel på input er et museklikk (.click), eller bevege på musa o.l.</p>
+    <h2>Hvilke hendelser har vi snakket om? Trenger bare kategoriene.</h2> <!-- Du får desverre ikke bare kategoriene fra meg, og det får du bare leve med :) Bruker dette som en type kartlegging av funksjoner, beklager :) Men det meste er bare gjentakelse av det du har sagt, tihi-->
+    <p>Vi har snakket om: addEventListener, bubbling og capturing. <br>
+    User interface hendelser. .load som kjører så snart nettsiden er lastet og .unload som kjører når siden forlates. <br>
+    .error (feilmelding til brukeren), .scroll (kjører når brukeren scroller), focus (skarphet) og blur (uskarphet) - et element kan bli fokusert, og et annet element vil miste fokus og dermed bli blurred. <br><br>
+    <strong>Musehendelser</strong>, som blir triggered av bevegelser på eller fra et element og click events. I tillegg er det <a href="https://www.youtube.com/watch?v=bxNSCuiPiDs">Double Click</a> (dbclick) event. og .mousedown (museknappen trykkes ned) <br>
+    .mouseup som kjøres når du slipper knappen og .mouseover (kjøre over element med hendelsen) og motsatte part .mouseout. <br><br>
+    <strong>Keyboard events:</strong><br>
+    .input (kjører når noen har gjort endringer i input eller textarea), .keydown (Kjører når du trykker ned en knapp, og kan holdes nede for kontinuerlig fortsettelse på hendelsen), .keypress som kjører når man trykker en knapp som får.. <br>
+    et symbol til å dukke opp (f.eks A-tasten). .keyup kjøres når en knapp slippes opp
+    .Submit kjører når en bruker skjema med Form<!--<form></form>-->. .change leter etter forndringer i elementer, og er å foretrekke over .click hendelsen. <br><br>
+
+
+    .DOMNodeInserted (kjører når script legger til en ny node.), DOMNodeRemoved (kjører hvis et script fjerner en node), DOMSubTreeModified (kjører når DOM-treet forandres (inkludert de to tidligere hendelsene)), <br> DOMNodeInsertedIntoDocument (når et script legger til en node i treet som et avkom av en annen node), DOMNodeRemovedFromDocument (motsatte av det forrige). <br><br>
+    <strong>HTML</strong>, har hendelser som DOMContentLoaded en funksjon som å laste før all annen innlasting i nettsida (samtidig som html-dokument), .hashchange sender inn ankere på forskjellige deler av en nettside. .beforeunload kjører på vinduobjektet før siden blir unloaded (brukes til å sende dialogboks eller melding i det siden avsluttes)<br><br>
+
+    <strong>CSS</strong> har også hendelser, slik som .transitioned, som er når en CSS-overgang ender, .animationstart som er når en CSS-animasjon starter, .animationinteraction som gjentar css animasjoner (som f.eks gjenta) og .animationend når en css-animasjon ender.
+    </p>
+
+    <p><a href="spill.html">Trykk her for å spille!</a></p>
+
+
+
+
+
+
+
+    <script src="hendelser.js"></script>
+</body>
+</html>

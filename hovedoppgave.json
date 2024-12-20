@@ -1,0 +1,9 @@
+{
+    "gameSettings": {
+        "startLives": 5,
+        "startPoints": 0,
+        "timeToGetGot": 5000,
+        "pointsInAClick": 10
+    }
+}
+
